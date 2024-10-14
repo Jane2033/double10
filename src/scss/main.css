@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font: var(--font-family);
+}
+
+:root {
+  --text-color: #231B33;
+  --title-color: #ffffff;
+}
+
+:root {
+  --font-family: "Noto Sans TC", sans-serif;
+}
+
+body {
+  background: #ffe2e2;
+}
+
+header {
+  width: 100%;
+  padding: 3rem;
+  background: #ff4f4f;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  height: 80vh;
+  background: #ff8d8d;
+}
+.hero__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}/*# sourceMappingURL=main.css.map */
